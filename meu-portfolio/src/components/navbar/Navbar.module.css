@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    background-color: var(--fundoComponentes);
+   
+}
+
+.header .navContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.header .navContainer .imgContainer {
+   
+
+}
+
+.header .navContainer .navigation {
+
+}
+
+.header .navContainer .navigation .listNavigation  {
+    display: flex;
+    
+}
+
+.header .navContainer .navigation .listNavigation li {
+    color: var(--textColor);
+}
