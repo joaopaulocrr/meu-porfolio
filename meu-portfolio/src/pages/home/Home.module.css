@@ -1,0 +1,17 @@
+.main {
+    min-height: 76.8vh;
+   display: flex;
+   justify-content: center;
+    margin-top: 4rem;
+    background: linear-gradient(to right, #12172E 10%, #571C85 100%);
+
+}
+
+.main .containerComponents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 80%;
+    color: #eee;
+}

@@ -1,7 +1,10 @@
 :root {
     --fundoPrincipal: #121212;
     --fundoComponentes: #242424;
-    --textColor: #E0E0E0;
+    --textColorPrincipal: #E0E0E0;
+    --textColorSecundario: #9E9E9E;
+    --corBotaoPrincipal: #00C4FF;
+
 }
 
 * {
@@ -9,4 +12,5 @@
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }

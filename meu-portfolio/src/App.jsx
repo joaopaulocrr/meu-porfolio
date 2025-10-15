@@ -1,14 +1,16 @@
-import './App.module.css'
+import "./App.module.css";
 
-import AppRoutes from './routes/AppRoutes'
+import Home from "./pages/home/Home";
+// import Navbar from "../src/components/navbar/Navbar";
 
 function App() {
-  
   return (
-     
-      <AppRoutes />
-     
-  )
+    // <AppRoutes />
+    <>
+      {/* <Navbar /> */}
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;

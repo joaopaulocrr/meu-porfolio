@@ -1,33 +1,50 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import styles from "./Navbar.module.css";
 const Navbar = () => {
+  const links = [
+    {nome: "Home", id: "home", url: "#home"},
+    {nome: "About", id: "about", url: "#about"},
+    {nome: "Courses", id: "courses", url: "#courses"},
+    {nome: "Projects", id: "projects", url: "#projects"},
+    {nome: "Contacts", id: "contacts", url: "#contacts"}
+  ]
   return (
     <header className={styles.header}>
       <div className={styles.navContainer}>
-        <div className={styles.imgContainer}>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.imgContainer}>
           <img src="./src/assets/logoPequena.png" alt="Logo do desenvolvedor" />
-        </div>
+        </motion.div>
         <nav className={styles.navigation}>
           <ul className={styles.listNavigation}>
-            <li>
-              <Link to={"/"}>Home</Link>
+            {links.map((link) => (
+            
+              <li key={link.id}>
+                <a href={link.url}>
+                  {link.nome}
+                </a>
+              </li>
+            ))}
+            {/* <li>
+              <a href="#">Home</a>
             </li>
             <li>
-              <Link to={"/about"}>About</Link>
+              <a href="#about">About</a>
             </li>
             <li>
-              <Link to={"/courses"}>Courses</Link>
+              <a href="#courses">Courses</a>
             </li>
             <li>
-              <Link to={"/projects"}>Projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <Link to={"/contact"}>Contact</Link>
-            </li>
+              <a href="#contacts">Contacts</a>
+            </li> */}
           </ul>
         </nav>
       </div>
+      {/* <motion className="di"></motion> */}
     </header>
   );
 };
