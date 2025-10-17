@@ -2,14 +2,46 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 section .divCodeXml {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
-    border: 4px solid purple;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid purple;
 }
 
+section h1 {
+    text-transform: capitalize;
+    line-height: 95px;
+}
+
+section h1 .h1SpanGradient{
+    display: block;
+    font-size: 5rem;
+    background: linear-gradient(to right, #26d1ee, #F472B7);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+section h1 .h1Span {
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+/* 
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */

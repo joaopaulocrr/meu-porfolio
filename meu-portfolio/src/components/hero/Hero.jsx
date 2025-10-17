@@ -6,10 +6,11 @@ const Hero = () => {
   return (
     <section>
         <div className={styles.divCodeXml}>
-            <CodeXml />
+            <CodeXml size={150} color="#22D3EE"/>
         </div>
-        <h1>Desenvolvedor 
-            <span>Frontend</span>
+        <h1>
+            <span className={styles.h1SpanGradient}>Desenvolvedor</span> 
+            <span className={styles.h1Span}> Frontend</span>
         </h1>
         <p>Transformando idéias em experiências digitais incríveis</p>
         <div className="buttonsContainer">

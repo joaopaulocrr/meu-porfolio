@@ -2,7 +2,7 @@
     min-height: 76.8vh;
    display: flex;
    justify-content: center;
-    margin-top: 4rem;
+    margin-top: var(--heightHeader);
     background: linear-gradient(to right, #12172E 10%, #571C85 100%);
 
 }
