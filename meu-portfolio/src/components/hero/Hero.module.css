@@ -1,21 +1,34 @@
+@keyframes move {
+    from {
+        transform: translatey(10px);
+    } to {
+        transform: translateY(-10px);
+    }
+}
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 section .divCodeXml {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-top: 18px;
+    margin-bottom: 40px;
     background-color: #000;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 10px solid purple;
+    border: 8px solid transparent;
+    background-image: linear-gradient(#000, #000),
+                      linear-gradient(to right, #4cc4f3, #5f23e0 );
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
 }
 
 section h1 {
@@ -38,10 +51,86 @@ section h1 .h1Span {
     margin-bottom: 50px;
 }
 
-/* 
-h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    
+}
+
+section .buttonsContainer {
+    
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    
+}
+
+section .buttonsContainer button {
+    width: 300px;
+    padding: 12px;
+    font-size: 1.3rem;  
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+
+}
+
+section .buttonsContainer .buttonContact {
+    background: linear-gradient(to right, #0AB4D5, #A855F7);
+    color: #fff;
+    border: none;
+    
+}
+
+section .buttonsContainer .buttonContact:hover {
+    background: linear-gradient(to right, #0b7d94, #6620a7);
+}
+
+section .buttonsContainer .cvButton {
+    background-color: #fff;
+    border: 1px solid #0AB4D5;
+    color: #22D3EE;
+    
+}
+
+section .buttonsContainer .cvButton:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+section .iconsContainer {
+    margin-top: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    padding: 5px;
+
+}
+
+section .iconsContainer span {
+    width: 68px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #12034b;
+    color: #22D3EE;
+    border: 1px solid #22D3EE;
+    border-radius: 50%;
+}
+
+section .mouseIcon {
+    margin: 150px 0;
+    font-weight: lighter;
+    animation: move 1.5s linear infinite alternate ;
+    
+}
+
+section .mouseIcon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
