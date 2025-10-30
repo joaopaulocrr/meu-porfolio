@@ -18,7 +18,7 @@ const Home = () => {
      <main className={styles.main}>
    
       <div className= {styles.containerComponents}>
-        <Hero id="hero"/>
+        <Hero id="home"/>
         <About id="about" />
         <Projects id="projects" />
         <Courses id="courses" />

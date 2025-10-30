@@ -1,3 +1,7 @@
+/*Media Queries*/
+
+
+/*Animações*/
 @keyframes move {
     from {
         transform: translatey(10px);
@@ -6,7 +10,7 @@
     }
 }
 
-section {
+.sectionHero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +18,7 @@ section {
     margin-bottom: 50px;
 }
 
-section .divCodeXml {
+.sectionHero .divCodeXml {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,34 +35,34 @@ section .divCodeXml {
     background-origin: padding-box, border-box;
 }
 
-section h1 {
+.sectionHero .h1Hero {
     text-transform: capitalize;
     line-height: 95px;
+   
 }
 
-section h1 .h1SpanGradient{
+.sectionHero .h1Hero .h1SpanGradient{
     display: block;
-    font-size: 5rem;
+    font-size: clamp(2.5rem, 9vw, 5rem);
     background: linear-gradient(to right, #26d1ee, #F472B7);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     
 }
 
-section h1 .h1Span {
+.sectionHero .h1Hero .h1Span {
     display: block;
     font-size: 4rem;
     margin-bottom: 50px;
 }
 
-section p {
-    font-family: 'Times New Roman', Times, serif;
+.sectionHero .paragraph {
     font-size: 1.5rem;
     margin-bottom: 40px;
     
 }
 
-section .buttonsContainer {
+.sectionHero .buttonsContainer {
     
     display: flex;
     flex: 1;
@@ -66,7 +70,7 @@ section .buttonsContainer {
     
 }
 
-section .buttonsContainer button {
+.sectionHero .buttonsContainer .heroButtons {
     width: 300px;
     padding: 12px;
     font-size: 1.3rem;  
@@ -76,30 +80,30 @@ section .buttonsContainer button {
 
 }
 
-section .buttonsContainer .buttonContact {
+.sectionHero .buttonsContainer .buttonContact {
     background: linear-gradient(to right, #0AB4D5, #A855F7);
     color: #fff;
     border: none;
     
 }
 
-section .buttonsContainer .buttonContact:hover {
+.sectionHero .buttonsContainer .buttonContact:hover {
     background: linear-gradient(to right, #0b7d94, #6620a7);
 }
 
-section .buttonsContainer .cvButton {
+.sectionHero .buttonsContainer .cvButton {
     background-color: #fff;
     border: 1px solid #0AB4D5;
     color: #22D3EE;
     
 }
 
-section .buttonsContainer .cvButton:hover {
+.sectionHero .buttonsContainer .cvButton:hover {
     background-color: transparent;
     color: #000;
 }
 
-section .iconsContainer {
+.sectionHero .iconsContainer {
     margin-top: 60px;
     width: 300px;
     display: flex;
@@ -110,7 +114,7 @@ section .iconsContainer {
 
 }
 
-section .iconsContainer span {
+.sectionHero .iconsContainer span {
     width: 68px;
     height: 100%;
     display: flex;
@@ -121,16 +125,25 @@ section .iconsContainer span {
     color: #22D3EE;
     border: 1px solid #22D3EE;
     border-radius: 50%;
+    transition: transform .4s;
 }
 
-section .mouseIcon {
+.sectionHero .iconsContainer span:hover {
+    transform: scale(1.1) rotate(-30deg);
+    background-color: #1b0a61;
+    cursor: pointer;
+   
+
+}
+
+.sectionHero .mouseIcon {
     margin: 150px 0;
     font-weight: lighter;
     animation: move 1.5s linear infinite alternate ;
     
 }
 
-section .mouseIcon:hover {
+.sectionHero .mouseIcon:hover {
     transform: scale(1.1);
     cursor: pointer;
 }

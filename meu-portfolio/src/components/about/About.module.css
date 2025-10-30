@@ -1,0 +1,127 @@
+.sectionAbout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionAbout .h1About {
+
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 8rem;
+    background-image: linear-gradient(to right, #2ACFED, #F274B8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.sectionAbout .h1About::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px; /* distância entre o texto e a borda */
+  width: 50%; /* você pode reduzir, ex: 60%, se quiser menor */
+  height: 7px;
+  background: linear-gradient(to right, #2ACFED, #F274B8);
+  border-radius: 4px;
+}
+
+.sectionAbout .divImgText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.sectionAbout .divsImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 1rem;
+
+}
+
+.sectionAbout .divsImgContainer .backgroundImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    background-color: #281746;
+    border: 1px solid #6C63FF;
+    border-radius: 1rem;
+}
+
+.sectionAbout .divsImgContainer .backgroundImage .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #1c054e;
+}
+
+.sectionAbout .divsImgContainer .backgroundImage .imgContainer .myImageProgramming {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectionAbout .aboutText {
+    width: 40%;
+    padding: 1rem;
+
+}
+
+.sectionAbout .aboutText .paragraph {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    color: #d4d3d3;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sectionAbout .aboutText  .divsMyObjective {
+    display: flex;
+    align-items: center;
+    background-color: #3E237A;
+    gap: 2rem;
+    /* height: 4rem; */
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    border: 1px solid #6C63FF;
+    border-radius: 20px;
+    flex-wrap: wrap;  
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sectionAbout .aboutText .divsMyObjective:hover {
+  background-color: #4C2D91; /* leve efeito ao passar o mouse */
+  transform: translateY(-3px) translateX(10px);
+  
+}
+
+.sectionAbout .aboutText  .divsMyObjective .divsContainerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: #5C4DCE;
+}
+
+ .sectionAbout .aboutText  .divsMyObjective .paragraphMyObjectives {
+    color: #F8F8FF;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.4;
+  margin: 0;
+  flex: 1;
+ }

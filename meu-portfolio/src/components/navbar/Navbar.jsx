@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import styles from "./Navbar.module.css";
+
+import logo from '../../assets/logoPequena.png'
+
+
 const Navbar = () => {
   const links = [
     {nome: "Home", id: "home", url: "#home"},
@@ -14,7 +18,7 @@ const Navbar = () => {
     <header className={styles.header}>
       <div className={styles.navContainer}>
         <motion.div whileHover={{ scale: 1.05 }} className={styles.imgContainer}>
-          <img src="./src/assets/logoPequena.png" alt="Logo do desenvolvedor" />
+          <img src={logo} alt="Logo do desenvolvedor" />
         </motion.div>
         <nav className={styles.navigation}>
           <ul className={styles.listNavigation}>

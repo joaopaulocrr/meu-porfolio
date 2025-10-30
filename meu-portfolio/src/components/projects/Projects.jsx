@@ -1,8 +1,8 @@
 
 
-const Projects = () => {
+const Projects = ({id}) => {
   return (
-    <div>Projects</div>
+    <div id={id}>Projects</div>
   )
 }
 
