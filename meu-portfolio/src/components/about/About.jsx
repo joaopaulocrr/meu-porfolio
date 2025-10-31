@@ -28,7 +28,7 @@ const About = ({ id }) => {
 
           <div className={`${styles.divsMyObjective}`}>
             <div className={`${styles.divsContainerIcons}`}>
-              <Sparkles size={40} />
+              <Sparkles size={40} className={`${styles.iconsLucide}`}/>
             </div>
             <p className={`${styles.paragraphMyObjectives}`}>
               Sempre aprendendo novas tecnologias
@@ -37,7 +37,7 @@ const About = ({ id }) => {
 
           <div className={`${styles.divsMyObjective}`}>
             <div className={`${styles.divsContainerIcons}`}>
-              <Rocket size={40} />
+              <Rocket size={40} className={`${styles.iconsLucide}`}/>
             </div>
             <p className={`${styles.paragraphMyObjectives}`}>
               Focado em projetos práticos
@@ -46,7 +46,7 @@ const About = ({ id }) => {
 
           <div className={`${styles.divsMyObjective}`}>
             <div className={`${styles.divsContainerIcons}`}>
-              <Heart size={40} />
+              <Heart size={40} className={`${styles.iconsLucide}`}/>
             </div>
             <p className={`${styles.paragraphMyObjectives}`}>
               Apaixonado por código limpo
