@@ -1,0 +1,146 @@
+.sectionProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7rem;
+    
+}
+
+.h1Projects {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 8rem;
+    background-image: linear-gradient(to right, #2ACFED, #F274B8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+}
+
+ .h1Projects::after {
+      content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px; /* distância entre o texto e a borda */
+  width: 50%; /* você pode reduzir, ex: 60%, se quiser menor */
+  height: 7px;
+  background: linear-gradient(to right, #2ACFED, #F274B8);
+  border-radius: 4px;
+}
+
+ .projectsContainer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+ .divProject {
+    background-color: #260947;
+    border: 1px solid blue;
+    border-radius: 15px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    min-width: 200px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+ .divProject:hover {
+    box-shadow: 0px 0px  100px rgb(140, 20, 252);
+    transform: translateY(-10px);
+}
+
+.divImgProject {
+   position: relative;
+}
+
+.imgProject {
+    width: 100%;
+    display: block;
+}
+
+.divShaddow {
+   position: absolute;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 128, 0, 0.493);
+}
+
+  .containerTextProject {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 1.5rem;
+ }
+
+ .paragraphProject {
+    color: #9CA3AF;
+ }
+
+ .technologiesUsed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 200px;
+ }
+
+ .spanTecnology {
+    display: block;
+    background-color: #3e3957;
+    color: #2ACFED;
+    padding: 10px;
+    border: 1px solid #2ACFED;
+    border-radius: 20px;
+    margin-bottom: 5px;
+ }
+
+ .spanTecnology:hover {
+   text-shadow:  0 0 19px #0af;
+   cursor: pointer;
+ }
+
+ .codigoOrDemo {
+    display: flex;
+    gap: 10px;
+
+ }
+
+ .codigo {
+    display: flex;
+    background-color: #fff;
+    color: #2ACFED;
+    font-size: .9rem;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 10px;
+    flex: 1;
+     border: 1px solid #2ACFED;
+     transition: all .3s ;
+ }
+
+ .codigo:hover {
+   background-color: rgb(54, 2, 75);
+   color: #fff;
+   cursor: pointer;
+ }
+
+ .demo {
+   display: flex;
+   gap: 10px;
+    background: linear-gradient(to right, #09B4D5, #A557F7);
+    padding: 10px;
+    font-size: .9rem;
+    border-radius: 15px;
+    flex: 1;
+ }
+
+ .demo:hover {
+    background: linear-gradient(to right, #07a4c4, #8446c7);
+    cursor: pointer;
+
+ }

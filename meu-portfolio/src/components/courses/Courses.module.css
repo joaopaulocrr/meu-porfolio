@@ -1,0 +1,28 @@
+.courses {
+    background-image: linear-gradient(to right, #2C194E, #181835);
+    width: 100%;
+}
+
+.h1Courses {
+    
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 8rem;
+    background-image: linear-gradient(to right, #2ACFED, #F274B8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+    
+}
+
+ .h1Courses::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px; /* distância entre o texto e a borda */
+  width: 50%; /* você pode reduzir, ex: 60%, se quiser menor */
+  height: 7px;
+  background: linear-gradient(to right, #2ACFED, #F274B8);
+  border-radius: 4px;
+}

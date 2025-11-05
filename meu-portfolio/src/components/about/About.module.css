@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.sectionAbout .h1About {
+.h1About {
 
     font-size: clamp(2rem, 5vw, 4rem);
     margin-bottom: 8rem;
@@ -17,7 +17,7 @@
     
 }
 
-.sectionAbout .h1About::after {
+ .h1About::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -29,14 +29,14 @@
   border-radius: 4px;
 }
 
-.sectionAbout .divImgText {
+.divImgText {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
     gap: 2rem;
 }
 
-.sectionAbout .divsImgContainer{
+.divsImgContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
 
 }
 
-.sectionAbout .divsImgContainer .backgroundImage {
+.backgroundImage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@
     border-radius: 1rem;
 }
 
-.sectionAbout .divsImgContainer .backgroundImage .imgContainer {
+.imgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,27 +67,27 @@
     background-color: #180247;
 }
 
-.sectionAbout .divsImgContainer .backgroundImage .imgContainer .myImageProgramming {
+.myImageProgramming {
     
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.sectionAbout .aboutText {
+ .aboutText {
     width: 40%;
     padding: 1rem;
 
 }
 
-.sectionAbout .aboutText .paragraph {
+.paragraph {
     font-size: clamp(0.9rem, 2vw, 1.1rem);
     color: #d4d3d3;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
 
-.sectionAbout .aboutText  .divsMyObjective {
+.divsMyObjective {
     display: flex;
     align-items: center;
     background-color: #3E237A;
@@ -101,13 +101,13 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.sectionAbout .aboutText .divsMyObjective:hover {
+.divsMyObjective:hover {
   background-color: #4C2D91; /* leve efeito ao passar o mouse */
   transform: translateY(-3px) translateX(10px);
   
 }
 
-.sectionAbout .aboutText  .divsMyObjective .divsContainerIcons {
+ .divsContainerIcons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,12 +117,12 @@
     background-color: #5C4DCE;
 }
 
-.sectionAbout .aboutText  .divsMyObjective .divsContainerIcons .iconsLucide {
+.iconsLucide {
     color: #2ACFED;
     stroke-width: 1.2;
 }
 
- .sectionAbout .aboutText  .divsMyObjective .paragraphMyObjectives {
+ .paragraphMyObjectives {
     color: #F8F8FF;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
   line-height: 1.4;
