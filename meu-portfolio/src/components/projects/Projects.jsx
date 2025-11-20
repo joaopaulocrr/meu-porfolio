@@ -59,7 +59,7 @@ const Projects = ({id}) => {
 
           <div className={`${styles.containerTextProject}`}>
             <h2>Título do projeto</h2>
-            <p>Descrição completa do projeto criado</p>
+            <p className={`${styles.paragraphProject}`}>Descrição completa do projeto criado</p>
             <div className={`${styles.technologiesUsed}`}>
               <div className={`${styles.technology}`}>
                 <span className={`${styles.spanTecnology}`}>Tecnologia</span>
@@ -94,7 +94,7 @@ const Projects = ({id}) => {
 
           <div className={`${styles.containerTextProject}`}>
             <h2>Título do projeto</h2>
-            <p>Descrição completa do projeto criado</p>
+            <p className={`${styles.paragraphProject}`}>Descrição completa do projeto criado</p>
             <div className={`${styles.technologiesUsed}`}>
               <div className={`${styles.technology}`}>
                 <span className={`${styles.spanTecnology}`}>Tecnologia</span>
@@ -128,7 +128,7 @@ const Projects = ({id}) => {
 
           <div className={`${styles.containerTextProject}`}>
             <h2 >Título do projeto</h2>
-            <p>Descrição completa do projeto criado</p>
+            <p className={`${styles.paragraphProject}`}>Descrição completa do projeto criado</p>
             <div className={`${styles.technologiesUsed}`}>
               <div className={`${styles.technology}`}>
                 <span className={`${styles.spanTecnology}`}>Tecnologia</span>
@@ -162,7 +162,7 @@ const Projects = ({id}) => {
 
           <div className={`${styles.containerTextProject}`}>
             <h2>Título do projeto</h2>
-            <p>Descrição completa do projeto criado</p>
+            <p className={`${styles.paragraphProject}`}>Descrição completa do projeto criado</p>
             <div className={`${styles.technologiesUsed}`}>
               <div className={`${styles.technology}`}>
                 <span className={`${styles.spanTecnology}`}>Tecnologia</span>

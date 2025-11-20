@@ -1,8 +1,10 @@
-
+import styles from "./Contact.module.css"
 
 const Contact = ({id}) => {
   return (
-    <div id={id}>Contact</div>
+    <div id={id}>
+      
+    </div>
   )
 }
 
