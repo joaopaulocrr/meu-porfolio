@@ -18,7 +18,7 @@
     margin-bottom: 50px;
 }
 
-.sectionHero .divCodeXml {
+.divCodeXml {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,39 +35,36 @@
     background-origin: padding-box, border-box;
 }
 
-.sectionHero .h1Hero {
+.h1Hero {
     text-transform: capitalize;
-    line-height: 95px;
-   
+    line-height: 95px; 
 }
 
-.sectionHero .h1Hero .h1SpanGradient{
+.h1SpanGradient{
     display: block;
     font-size: clamp(2.5rem, 9vw, 5rem);
     background: linear-gradient(to right, #26d1ee, #F472B7);
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    
+    background-clip: text; 
 }
 
-.sectionHero .h1Hero .h1Span {
+.h1Span {
     display: block;
     font-size: 4rem;
     margin-bottom: 50px;
 }
 
-.sectionHero .paragraph {
+.paragraph {
     font-size: 1.5rem;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
 }
 
-.sectionHero .buttonsContainer {
-    
+.buttonsContainer {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     flex: 1;
-    gap: 2rem;
-    
+    gap: 2rem;   
 }
 
 .sectionHero .buttonsContainer .heroButtons {
@@ -77,14 +74,12 @@
     cursor: pointer;
     border-radius: 10px;
     transition: .3s ease-in-out;
-
 }
 
 .sectionHero .buttonsContainer .buttonContact {
     background: linear-gradient(to right, #0AB4D5, #A855F7);
     color: #fff;
-    border: none;
-    
+    border: none;   
 }
 
 .sectionHero .buttonsContainer .buttonContact:hover {
@@ -95,7 +90,6 @@
     background-color: #fff;
     border: 1px solid #0AB4D5;
     color: #22D3EE;
-    
 }
 
 .sectionHero .buttonsContainer .cvButton:hover {
@@ -111,7 +105,6 @@
     align-items: center;
     height: 68px;
     padding: 5px;
-
 }
 
 .sectionHero .iconsContainer span {
@@ -119,8 +112,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
     background-color: #12034b;
     color: #22D3EE;
     border: 1px solid #22D3EE;
@@ -133,14 +125,12 @@
     background-color: #1b0a61;
     cursor: pointer;
    
-
 }
 
 .sectionHero .mouseIcon {
     margin: 150px 0;
     font-weight: lighter;
-    animation: move 1.5s linear infinite alternate ;
-    
+    animation: move 1.5s linear infinite alternate ;  
 }
 
 .sectionHero .mouseIcon:hover {

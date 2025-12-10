@@ -1,9 +1,11 @@
 .footer {
-    height: 3rem;
-    width: 100%;
-    background-color: #dfe1fd4b;
-    border: 1px solid #aaa;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5rem;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, #581C87, #12172E);
+   
 }
