@@ -2,10 +2,13 @@
      display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 12vh;
     width: 100%;
     color: #fff;
-    font-size: 1.5rem;
     background-image: linear-gradient(to right, #581C87, #12172E);
    
+}
+
+.paragraph{
+    font-size: clamp(.8rem, 5vw, 2rem);
 }

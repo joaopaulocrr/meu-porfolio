@@ -54,7 +54,27 @@
   flex-wrap: wrap;
 }
 
+.containerInformationAndParagraph {
+ display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.5rem;
+  min-width: 300px;
+}
+
 .stylesFormAndInformation {
+   display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.5rem;
+  min-width: 300px;
+  background-color: #291D4B;
+  border: 1px solid #2ad0ed57;
+  border-radius: .7rem;
+  
+}
+
+.containerInformations {
    display: flex;
   flex-direction: column;
   flex: 1;
@@ -91,6 +111,14 @@
   background-color: #2E2951;
   border: 1px solid #2ad0ed57;
   border-radius: 1rem;
+  transition: .2s ease-in-out;
+}
+
+.divsInformations:hover {
+  cursor: pointer;
+  border: 1px solid #2ad0eddc;
+  transform: translateX(10px);
+ 
 }
 
 .lucideComponent {

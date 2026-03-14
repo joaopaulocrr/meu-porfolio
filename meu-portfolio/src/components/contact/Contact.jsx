@@ -12,9 +12,12 @@ const Contact = ({ id }) => {
         </p>
         <div className={` ${styles.containerFormAndInformation}`}>
           <div
-            className={`${styles.stylesFormAndInformation} ${styles.containerInformationAndParagraph} `}
+            className={` ${styles.containerInformationAndParagraph} `}
           >
-            <div className={`${styles.informations}`}>
+           
+           <div className={styles.containerInformations}>
+             <div className={`${styles.informations}`}>
+
               <h2 className={styles.titleInformations}>Informações</h2>
               <div className={`${styles.divsInformations} ${styles.myEmail}`}>
                 <div className={`${styles.lucideComponent}`}>
@@ -36,7 +39,11 @@ const Contact = ({ id }) => {
                 </div>
                 <p>São Paulo, Brasil</p>
               </div>
+
+
             </div>
+           </div>
+            
             <div className={`${styles.paragraphText}`}>
               <p>
                 "Sempre disponível para novos desafios e oportunidades de

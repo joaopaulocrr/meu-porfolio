@@ -56,20 +56,19 @@
 }
 
 .divImgProject {
-   position: relative;
+  
+  
 }
 
 .imgProject {
     width: 100%;
     display: block;
+       object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
-.divShaddow {
-   position: absolute;
-   inset: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 128, 0, 0.493);
+.divImgProject:hover .imgProject {
+   transform: scale(1.1);
 }
 
   .containerTextProject {
