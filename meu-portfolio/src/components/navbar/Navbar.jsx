@@ -11,7 +11,7 @@ const Navbar = () => {
     {nome: "About", id: "about", url: "#about"},
     {nome: "Courses", id: "courses", url: "#courses"},
     {nome: "Projects", id: "projects", url: "#projects"},
-    {nome: "Contacts", id: "contacts", url: "#contacts"}
+    {nome: "Contacts", id: "contacts", url: "#contacts"} 
   ]
   return (
     <header className={styles.header}>

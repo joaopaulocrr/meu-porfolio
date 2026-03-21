@@ -20,29 +20,29 @@ const Projects = ({ id }) => {
           </div>
 
           <div className={`${styles.containerTextProject}`}>
-            <h2>Título do projeto</h2>
+            <h2>Crud de Projetos</h2>
             <p className={`${styles.paragraphProject}`}>
-              Descrição completa do projeto criado
+              Sistema de gerenciamento de projetos com crud completo.
             </p>
             <div className={`${styles.technologiesUsed}`}>
               <div className={`${styles.technology}`}>
-                <span className={`${styles.spanTecnology}`}>HTML5</span>
+                <span className={`${styles.spanTecnology}`}>React</span>
               </div>
               <div className={`${styles.technology}`}>
-                <span className={`${styles.spanTecnology}`}>CSS3</span>
+                <span className={`${styles.spanTecnology}`}>Styled Components</span>
               </div>
               <div className={`${styles.technology}`}>
-                <span className={`${styles.spanTecnology}`}>Javascript</span>
+                <span className={`${styles.spanTecnology}`}>TYpescript</span>
               </div>
             </div>
             <div className={`${styles.codigoOrDemo}`}>
               <div className={`${styles.codigo}`}>
                 <SlSocialGithub />
-                <span>Código</span>
+                <a href="https://github.com/joaopaulocrr/crud-react-ts" target="_blank" rel="noopener noreferrer"><span>Código</span></a>
               </div>
               <div className={`${styles.demo}`}>
                 <ExternalLink />
-                <span>Demo</span>
+                <a href="https://crud-react-ts-seven.vercel.app" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
               </div>
             </div>
           </div>
