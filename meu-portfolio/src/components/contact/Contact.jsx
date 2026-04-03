@@ -1,3 +1,4 @@
+import H1Titlle from "../h1Titlle/H1Titlle";
 import styles from "./Contact.module.css";
 
 import { Mail, PhoneCall, MapPin } from "lucide-react";
@@ -6,7 +7,7 @@ const Contact = ({ id }) => {
   return (
     <section id={id} className={`${styles.sectionContact}`}>
       <div className={`${styles.containerContact}`}>
-        <h1 className={styles.h1Contact}>Entre em Contato</h1>
+        <H1Titlle>Entre em Contato</H1Titlle>
         <p className={styles.paragraphContact}>
           Vamos trabalhar juntos? Envie uma mensagem!
         </p>

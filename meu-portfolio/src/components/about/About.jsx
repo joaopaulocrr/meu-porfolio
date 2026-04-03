@@ -1,3 +1,4 @@
+import H1Titlle from "../h1Titlle/H1Titlle";
 import styles from "./About.module.css";
 
 import { Heart, Rocket, Sparkles } from "lucide-react";
@@ -5,7 +6,7 @@ import { Heart, Rocket, Sparkles } from "lucide-react";
 const About = ({ id }) => {
   return (
     <section id={id} className={styles.sectionAbout}>
-      <h1 className={styles.h1About}>Sobre Mim</h1>
+           <H1Titlle>Sobre Mim</H1Titlle>
 
       <div className={styles.divImgText}>
         <div className={styles.divsImgContainer}>

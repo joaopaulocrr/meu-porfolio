@@ -1,3 +1,4 @@
+import H1Titlle from "../h1Titlle/H1Titlle";
 import styles from "./Courses.module.css";
 
 const Courses = ({ id }) => {
@@ -24,7 +25,7 @@ const Courses = ({ id }) => {
 
   return (
     <section id={id} className={`${styles.courses}`}>
-      <h1 className={`${styles.h1Courses}`}>Meus cursos</h1>
+      <H1Titlle>Cursos</H1Titlle>
 
       <div className={`${styles.containerCourses}`}>
         {cursos.map((curso, index) => (

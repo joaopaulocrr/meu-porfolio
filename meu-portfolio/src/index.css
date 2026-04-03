@@ -6,8 +6,8 @@
     --textColorPrincipal: #E0E0E0;
     --textColorSecundario: #9E9E9E;
     --corBotaoPrincipal: #00C4FF;
-    --heightHeader: 5rem;
-
+    --heightHeader: 3.5rem;
+    --fontSizeParagraph: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 }
 
 * {

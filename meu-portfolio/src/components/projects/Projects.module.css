@@ -7,9 +7,9 @@
 }
 
 .h1Projects {
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: var(--h1Font-size);
+    background-image: var(--h1Principal-color);
     margin-bottom: 8rem;
-    background-image: linear-gradient(to right, #2ACFED, #F274B8);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: relative;

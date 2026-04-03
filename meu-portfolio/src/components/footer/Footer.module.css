@@ -2,7 +2,7 @@
      display: flex;
     justify-content: center;
     align-items: center;
-    height: 12vh;
+    height:8vh;
     width: 100%;
     color: #fff;
     background-image: linear-gradient(to right, #581C87, #12172E);
@@ -10,5 +10,5 @@
 }
 
 .paragraph{
-    font-size: clamp(.8rem, 5vw, 2rem);
+    font-size: clamp(.8rem, 2vw, 1rem);
 }
